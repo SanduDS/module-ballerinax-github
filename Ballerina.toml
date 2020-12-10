@@ -1,6 +1,6 @@
 [package]
 org = "testds"
-name = "github"
+name = "test_GB"
 version = "0.99.2"
 authors = ["Ballerina"]
 keywords = ["github", "endpoint", "API"]
