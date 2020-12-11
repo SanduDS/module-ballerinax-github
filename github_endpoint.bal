@@ -16,6 +16,7 @@
 
 import ballerina/http;
 import ballerina/io;
+import ballerina/system as _;
 
 # GitHub Client object.
 # + accessToken - The access token of the github account
