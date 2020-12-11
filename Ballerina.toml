@@ -9,8 +9,34 @@ license = ["Apache-2.0"]
 
 [[dependency]]
 org = "ballerina"
+name = "http"
+version = "1.0.3"
+
+[[dependency]]
+org = "ballerina"
+name = "io"
+version = "0.5.3"
+
+[[dependency]]
+org = "ballerina"
+name = "stringutils"
+version = "0.5.3"
+
+
+[[dependency]]
+org = "ballerina"
+name = "log"
+version = "1.0.3"
+
+[[dependency]]
+org = "ballerina"
 name = "system"
 version = "0.6.3"
+
+[[dependency]]
+org = "ballerina"
+name = "config"
+version = "1.0.3"
 
 [build-options]
 observabilityIncluded = true
