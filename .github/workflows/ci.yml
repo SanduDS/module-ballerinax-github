@@ -21,4 +21,3 @@ jobs:
                   ASSIGNEE: ${{ secrets.ASSIGNEE }}
                   RESOURCE_PATH: ${{ secrets.RESOURCE_PATH }}
                   JAVA_OPTS: -DBALLERINA_DEV_COMPILE_BALLERINA_ORG=true
-        
