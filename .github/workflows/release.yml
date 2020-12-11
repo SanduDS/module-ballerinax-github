@@ -15,7 +15,7 @@ jobs:
               uses: ballerina-platform/ballerina-action/@slp7
               with:
                   args:
-                      build -c
+                      build --skip-tests
               env:
                   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
                   ORG_NAME: ${{ secrets.ORG_NAME }}
@@ -23,11 +23,7 @@ jobs:
                   ASSIGNEE: ${{ secrets.ASSIGNEE }}
                   RESOURCE_PATH: ${{ secrets.RESOURCE_PATH }}
                   JAVA_OPTS: -DBALLERINA_DEV_COMPILE_BALLERINA_ORG=true
-            - name: Ballerina Build with no tests
-              uses: ballerina-platform/ballerina-action/@slp7
-              with:
-                  args: 
-                      build -c --skip-tests
+          
             - name: Archive distribtuion target
               uses: actions/upload-artifact@v2
               with:
