@@ -7,5 +7,10 @@ keywords = ["github", "endpoint", "API"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-github"
 license = ["Apache-2.0"]
 
+[[dependency]]
+org = "ballerina"
+name = "system"
+version = "0.6.3"
+
 [build-options]
 observabilityIncluded = true
