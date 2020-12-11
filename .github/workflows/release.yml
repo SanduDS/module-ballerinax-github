@@ -27,7 +27,7 @@ jobs:
               uses: ballerina-platform/ballerina-action/@slp7
               with:
                   args: 
-                      build --skip-tests
+                      build -c --skip-tests
             - name: Archive distribtuion target
               uses: actions/upload-artifact@v2
               with:
